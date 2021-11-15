@@ -1,0 +1,148 @@
+body{
+padding-top:0px !important;
+font-size:14px;
+}               
+
+
+a[href]:after {
+display: none;
+visibility: hidden;
+}
+
+.product-card{
+width:33%;
+float:left;
+padding-left:0px;
+padding-right:0px;
+}
+
+.product-card .body .image{
+height:200px;
+}
+
+.product-card .price{
+font-size:20px;
+}
+
+.product-card .name{
+font-size:15px;
+}
+
+body .formatButton{
+display:none;
+}
+
+.product-card:nth-child(3n+1){
+clear:both;
+}
+  
+.product-card:nth-child(2n+1){
+clear:none;
+}
+
+.site-footer .atlantic{
+display:none;
+}
+
+.site-footer .menu-column{
+display:none;
+} 
+
+.product-category-detail .filtering{
+display:none;
+}
+
+.woocommerce-pagination, .contact-form{
+display:none;
+}
+
+.hp-banner .arrow{
+display:none;
+}
+
+.service-box{
+width:auto;
+height:auto;
+}
+
+.service-box .body{
+width:100%;
+padding:0px;
+position:relative;
+top:0px;
+height:auto;
+}
+
+.service-box .content {
+position: relative;
+top: 0%;
+-webkit-transform: translateY(0%);
+-ms-transform: translateY(0%);
+transform: translateY(0%);
+}
+
+.service-box .image{
+display:none;
+}
+
+.product-detail-container .images-column,.product-detail-container  .informations-column{
+width:50%;
+float:left;
+}
+
+.product-detail-container .main-image{
+height:auto !important;
+}
+
+.product-detail-container .main-image img{
+top: 0%;
+-webkit-transform: translateY(0%);
+-ms-transform: translateY(0%);
+transform: translateY(0%);
+}
+
+.product-detail-container .other-images{
+display:none;
+}
+
+.product-detail-container .free-transport{
+display:none;
+}
+
+.woocommerce div.product form.cart, .product-detail-container .transport-pay-info, .product-detail-container .availability-info, .product-detail-container .stock{
+display:none;
+}
+
+.page-breadcrumbs, .related-products, .footer-sections{
+display:none !important;
+}
+
+.print-header{
+display:block !important;
+background:#333333 !important;
+box-shadow: inset 0 0 0 1000px gold;
+-webkit-print-color-adjust: exact; 
+color-adjust: exact;
+padding:20px;
+text-align:center;
+}
+
+.print-header img{
+height:70px;
+}
+
+.product-detail-container .main-description, .product-detail-container .woocommerce-product-details__short-description, .product-detail-container .product-params{
+font-size:14px;
+}
+
+.product-detail-container .informations-column h1{
+font-size:24px;
+}
+
+.woocommerce .product-detail-container .price-box .price{
+font-size:20px;
+}
+
+.product-detail-container .main-description h2{
+font-size:16px;
+}
